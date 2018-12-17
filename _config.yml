@@ -1,5 +1,22 @@
+title: Hacker theme
+description: Hacker is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
 theme: jekyll-theme-hacker
 
+google_analytics: UA-91769229-1
+repo: http://github.com/jiangnanhugo
+disqus_shortname: "nanjiang"
+twitter_username: "nanjiang"
+comments: true
+
+
+# Build settings
+permalink   : /:year/:title/
 markdown    : kramdown
 kramdown:
   math_engine: mathjax
+highlighter: rouge
+
+source: ./
+destination: ./_site
